@@ -1,1 +1,43 @@
-/* your code here */
+/* Reset some default margin and padding for better styling */
+body, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Style each footer section */
+.footer-section {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the links within each section */
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+/* Style the media icons container */
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the media icons */
+.media-icons a {
+    margin: 0 5px;
+}
+
